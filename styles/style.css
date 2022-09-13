@@ -47,52 +47,60 @@ nav {
     padding-left: 9rem !important;
     margin: 0;
 }
-.add-shadow{
+
+.add-shadow {
     box-shadow: var(--second-shadow);
 }
+
 nav .navbar {
     display: flex;
     gap: 2.5rem;
     align-items: center;
 }
+
 /* Drop down */
-nav .navbar li{
+nav .navbar li {
     position: relative;
     list-style-type: none;
 }
-nav .navbar ul{
-position: absolute;
-left: .1rem;
-top: 2.2rem;
-list-style-type: none;
-flex-direction: column;
-gap: 1.5rem;
-width: 13.5rem;
-padding: 1rem 2rem 1.5rem 2rem;
-border-radius: .2rem;
-background-color: #fff;
-box-shadow: var(--second-shadow);
-display: flex;
+
+nav .navbar ul {
+    position: absolute;
+    left: .1rem;
+    top: 2.2rem;
+    list-style-type: none;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 13.5rem;
+    padding: 1rem 2rem 1.5rem 2rem;
+    border-radius: .2rem;
+    background-color: #fff;
+    box-shadow: var(--second-shadow);
+    display: flex;
 }
+
 nav .navbar ul.remove {
-  display: none;
-} 
-/* Drop down ends */
-nav .navBtn{
     display: none;
 }
+
+/* Drop down ends */
+nav .navBtn {
+    display: none;
+}
+
 .navbar a {
     font-size: 1rem;
     color: var(--primary-color);
     padding-bottom: .5rem;
 }
 
-.current{
+.current {
     font-weight: 700;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
     border-bottom: 5px solid var(--primary-color);
 }
+
 /* Nav bar ends */
 
 main {
@@ -120,13 +128,13 @@ main {
     font-size: 3.5rem;
     color: var(--primary-color);
     width: 35rem;
-    animation: slide 2s 0s 1 linear ;
+    animation: slide 2s 0s 1 linear;
 }
 
-.hero-section article p{
+.hero-section article p {
     font-size: 1rem;
     width: 25rem;
-    animation: slide 2s 0.1s 1 linear ;
+    animation: slide 2s 0.1s 1 linear;
 }
 
 .hero-section .hero-img img {
@@ -134,11 +142,12 @@ main {
     border-radius: 2rem;
     animation: bounce 3s infinite;
 }
+
 /* Hero section ends */
 
 /* Partners section */
 
-section.partners{
+section.partners {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,102 +156,112 @@ section.partners{
     margin-bottom: 9.1rem;
     animation: my-animation 15s linear infinite;
 }
-section.partners img.arm-logo{
+
+section.partners img.arm-logo {
     width: 10rem;
     height: 2rem;
 }
+
 /* End of partners */
 
 /* Features section */
-section.feature-container{
+section.feature-container {
     display: flex;
     flex-direction: column;
     margin-bottom: 9rem;
 }
 
-.feature-container .feature{
+.feature-container .feature {
     display: flex;
     align-items: center;
     gap: 8rem;
 }
-.feature article{
+
+.feature article {
     display: flex;
     flex-direction: column;
     gap: 1.3rem;
 }
 
-.feature article h1{
+.feature article h1 {
     font-size: 2rem;
     font-weight: 600;
     width: 28rem;
 }
 
-.feature article p{
+.feature article p {
     font-size: 1rem;
     line-height: 1.5rem;
     font-weight: 300;
 }
 
-.feature article p.one{
+.feature article p.one {
     width: 20rem;
 }
-.feature article p.two{
+
+.feature article p.two {
     width: 30rem;
 }
-.feature article p.three{
+
+.feature article p.three {
     width: 30rem;
 }
-.feature article p.four{
+
+.feature article p.four {
     width: 31rem;
 }
 
-.feature article a{
+.feature article a {
     color: var(--primary-color);
 }
 
 /* End of features */
 
 /* Asset section */
-section.asset-container{
+section.asset-container {
     display: flex;
     flex-direction: column;
     gap: 3rem;
     margin-bottom: 10rem;
 }
 
-.asset-container .asset-heading h1{
+.asset-container .asset-heading h1 {
     text-align: center;
     font-size: 2.6rem;
     margin-bottom: 1rem;
 }
-.asset-container .asset-heading p{
+
+.asset-container .asset-heading p {
     text-align: center;
     font-size: 1.3rem;
 }
 
-.asset-container .asset-wrapper{
+.asset-container .asset-wrapper {
     display: flex;
     gap: 2rem;
 }
 
-.asset-wrapper .asset{
+.asset-wrapper .asset {
     border-radius: 1rem;
     width: 30rem;
     padding-top: 10rem;
     display: flex;
     box-shadow: var(--second-shadow);
 }
-.asset-wrapper .asset.stocks{
+
+.asset-wrapper .asset.stocks {
     background-color: #fff4f0;
 }
-.asset-wrapper .asset.real-estate{
+
+.asset-wrapper .asset.real-estate {
     background-color: #f6f2ff;
 }
-.asset-wrapper .asset.fixed-income{
+
+.asset-wrapper .asset.fixed-income {
     background-color: #DBFEF8;
 }
 
-.asset .inner-asset{
+.asset .inner-asset {
     display: flex;
     flex-direction: column;
     background-color: #fff;
@@ -256,55 +275,60 @@ section.asset-container{
     line-height: 1.3rem;
 }
 
-.asset .inner-asset img.ass{
+.asset .inner-asset img.ass {
     width: 8rem;
     border-radius: 50%;
     margin-top: -4rem;
     border: 1.2rem solid #fff;
 }
-.asset .inner-asset a{
+
+.asset .inner-asset a {
     color: var(--primary-color);
     font-weight: 700;
     font-size: 1rem;
 }
 
-.asset .inner-asset p span{
+.asset .inner-asset p span {
     color: rgb(172, 175, 177);
 }
+
 /* End of assets */
 
 /* Goals sections */
-section.goals{
+section.goals {
     display: flex;
     align-items: center;
     gap: 5rem;
 }
 
-.goals .goals-img img{
+.goals .goals-img img {
     width: 30rem;
 }
 
-.goals article{
+.goals article {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-.goals article h2{
+.goals article h2 {
     font-size: 2.2rem;
     font-weight: 600;
 }
-.goals article h2 span{
+
+.goals article h2 span {
     color: #866ec6;
 }
+
 .goals article p.rise-goal {
     line-height: 1.6rem;
     width: 20rem;
 }
+
 /* Goals section ends */
 
 /*Regulation begins  */
-section.regulate{
+section.regulate {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -314,55 +338,60 @@ section.regulate{
     margin-bottom: 10rem;
     gap: 7em;
 }
-.regulate h2{
-font-size: 2.5rem;
-font-weight: 600;
-margin-bottom: 1rem;
+
+.regulate h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
 }
-.regulate p{
+
+.regulate p {
     font-size: 1rem;
     font-weight: 200;
     line-height: 1.3rem;
     width: 26.1rem;
 }
 
-.regulate .blue{
+.regulate .blue {
     width: 35rem;
-      height: 25rem; 
-      filter: blur(20px);
-    background-image: linear-gradient(#fff4f0, #f6f2ff); 
+    height: 25rem;
+    filter: blur(20px);
+    background-image: linear-gradient(#fff4f0, #f6f2ff);
 }
-.regulate .red{
+
+.regulate .red {
     width: 35rem;
-      height: 25rem; 
-      filter: blur(40px);
-    background-image: linear-gradient(#f6f2ff, #DBFEF8); 
+    height: 25rem;
+    filter: blur(40px);
+    background-image: linear-gradient(#f6f2ff, #DBFEF8);
 }
+
 /* End of regulate */
 
 /* Testimonial section */
-section.testimonials{
+section.testimonials {
     display: flex;
     flex-direction: column;
     gap: 3rem;
     margin-bottom: 10rem;
 }
 
-.testimonials .testimonial-heading h2{
+.testimonials .testimonial-heading h2 {
     color: var(--primary-color);
     font-size: 2.5rem;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 1rem;
 }
-.testimonials .testimonial-heading p{
+
+.testimonials .testimonial-heading p {
     text-align: center;
     width: 25rem;
     line-height: 1.3rem;
     margin: 0 auto;
 }
 
-.testimonials .testimonial-wrapper{
+.testimonials .testimonial-wrapper {
     display: flex;
     gap: 1rem;
     padding-left: 1rem;
@@ -370,7 +399,7 @@ section.testimonials{
     margin: 0 auto;
 }
 
-.testimonial{
+.testimonial {
     display: flex;
     flex-direction: column;
     background-color: #fff;
@@ -380,34 +409,39 @@ section.testimonials{
     gap: 2rem;
     width: 18rem;
 }
-.testimonial article p{
+
+.testimonial article p {
     font-size: 1rem;
     line-height: 1.3rem;
 }
-.testimonial .testifier{
+
+.testimonial .testifier {
     display: flex;
     align-items: center;
     gap: 1.1rem;
     margin-top: auto;
 }
-.testifier img{
+
+.testifier img {
     border-radius: 50%;
 }
-.testifier p{
+
+.testifier p {
     font-weight: 600;
     font-size: 1rem;
 }
 
-.testifier div{
+.testifier div {
     display: flex;
     flex-direction: column;
     gap: .5rem;
 
 }
+
 /* End of Testimonials */
 
 /* Community section */
-section.community{
+section.community {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -415,22 +449,25 @@ section.community{
     gap: 8rem;
     margin-bottom: 10rem;
 }
-section.community article{
+
+section.community article {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
-section.community article h2{
+
+section.community article h2 {
     font-size: 2.1rem;
     font-weight: 700;
     line-height: 1.5rem;
 }
-section.community article p{
+
+section.community article p {
     line-height: 1.5rem;
     width: 30rem;
 }
 
-section #comm-btn{
+section #comm-btn {
     width: 12.5rem;
     height: 4.3rem;
     background-color: #a0dde2;
@@ -442,10 +479,11 @@ section #comm-btn{
     border-radius: .5rem;
     font-weight: 700;
 }
+
 /* End of community */
 
 /* Download rise Section */
-section.download-app{
+section.download-app {
     width: 95%;
     height: 28rem;
     background-color: #e6f6f6;
@@ -453,54 +491,59 @@ section.download-app{
     display: flex;
     padding-left: 5rem;
     margin: 0 auto;
-    gap:11rem;
+    gap: 11rem;
     overflow: hidden;
     margin-bottom: 10rem;
 }
-section.download-app article{
+
+section.download-app article {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 30rem;
     gap: 2rem;
 }
-section.download-app article h2{
+
+section.download-app article h2 {
     font-size: 2em;
     line-height: 2.1rem;
 }
-section.download-app article p:first-child{
+
+section.download-app article p:first-child {
     color: var(--primary-color);
 }
-section.download-app .download-appImg img{
+
+section.download-app .download-appImg img {
     width: 81%;
     margin-top: 2rem;
     box-shadow: var(--second-shadow);
     border-radius: 1rem;
 }
+
 /* End of download section */
 
 /* Footer section */
-footer{
+footer {
     display: flex;
     gap: 11rem;
     justify-content: center;
     align-items: flex-start;
 }
 
-#flogo h1{
+#flogo h1 {
     font-size: 2rem;
     color: var(--text-color);
     position: relative;
     letter-spacing: -.1rem;
 }
 
-footer .foot{
+footer .foot {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-footer a{
+footer a {
     color: var(--text-color);
 }
 
@@ -537,7 +580,8 @@ footer a{
     font-weight: 700;
     transition: all 1s ease-out;
 }
-#btn:hover{
+
+#btn:hover {
     background-color: var(--hover-color)
 }
 
@@ -547,7 +591,8 @@ footer a{
     position: relative;
     letter-spacing: -.1rem;
 }
-#logo h1 p{
+
+#logo h1 p {
     width: 5px;
     height: 5px;
     border-radius: 50%;
@@ -557,7 +602,7 @@ footer a{
     right: -10%;
 }
 
-    .downloads {
+.downloads {
     display: flex;
     gap: 1rem;
 }
@@ -575,63 +620,67 @@ footer a{
     padding-left: 1rem;
     cursor: pointer;
     transition: .2s ease-in-out;
-    animation: slide 2s 0.2s 1 linear ;
+    animation: slide 2s 0.2s 1 linear;
 }
 
-#osLogo img.apple{
+#osLogo img.apple {
     filter: invert();
 }
 
-#osLogo p{
+#osLogo p {
     font-size: .8rem;
     font-weight: 400;
 }
-#osLogo p span{
+
+#osLogo p span {
     font-size: 1rem;
     font-weight: 600;
 }
 
-#osLogo:hover{
+#osLogo:hover {
     transform: translateY(-.3rem);
 }
 
-#navigator{
+#navigator {
     display: none;
 }
 
-#chat{
+#chat {
     position: fixed;
     bottom: 3rem;
     right: 3rem;
     pointer-events: none;
     cursor: pointer;
 }
+
 /* Link arrows */
-.aLinks{
+.aLinks {
     display: flex;
     gap: .5rem;
-   align-items: center;
-   transition: transform 2s ease-in-out;
+    align-items: center;
+    transition: transform 2s ease-in-out;
 }
-.aLinks img{
+
+.aLinks img {
     transform: translateX(-2rem);
     display: none;
 }
 
-.aLinks:hover > img{
+.aLinks:hover>img {
     transform: translateX(0);
     display: block;
 }
-.fLinks{
+
+.fLinks {
     display: flex;
     gap: .9rem;
-   align-items: center; 
+    align-items: center;
 }
 
 /* Footer arrows */
 
 /* Floating balls */
-.balls div{
+.balls div {
     background-color: var(--primary-color);
     border-radius: 50%;
     position: absolute;
@@ -639,137 +688,152 @@ footer a{
     animation: mover 20s linear infinite;
     width: 300px;
 }
-.balls div.ball1{
+
+.balls div.ball1 {
     width: 2rem;
-    height:2rem;
+    height: 2rem;
     bottom: 10%;
-    left: 0; 
+    left: 0;
     background-color: var(--ball-color);
-    animation-delay: 3.5s ;
+    animation-delay: 3.5s;
 }
-.balls div.ball2{
+
+.balls div.ball2 {
     width: 3rem;
     height: 3rem;
     bottom: -2rem;
-    left: 15%; 
+    left: 15%;
     background-color: var(--ball-color);
 }
-.balls div.ball3{
+
+.balls div.ball3 {
     width: 1.5rem;
     height: 1.5rem;
     bottom: -10%;
-    left: 30% ;
+    left: 30%;
     background-color: var(--ball-color);
-    animation-delay: 5.6s ;
+    animation-delay: 5.6s;
 }
-.balls div.ball4{
+
+.balls div.ball4 {
     width: 3rem;
     height: 3rem;
     bottom: 0;
-    left: 40% ;
+    left: 40%;
     background-color: var(--ball-color);
 }
-.balls div.ball5{
+
+.balls div.ball5 {
     width: 1rem;
     height: 1rem;
     bottom: 84%;
-    left: 54%; 
+    left: 54%;
     background-color: var(--ball-color);
     animation: none;
 }
-.balls div.ball6{
+
+.balls div.ball6 {
     width: 2.1rem;
     height: 2.1rem;
     bottom: -10%;
-    left: 60%; 
+    left: 60%;
     background-color: var(--ball-color);
-    animation-delay: 4s ;
+    animation-delay: 4s;
 }
-.balls div.ball7{
+
+.balls div.ball7 {
     width: 2.5rem;
     height: 3rem;
     bottom: -2rem;
-    left: 70%; 
+    left: 70%;
     background-color: var(--ball-color);
-    animation-delay: 5s ;
+    animation-delay: 5s;
 }
-.balls div.ball8{
+
+.balls div.ball8 {
     width: 3rem;
     height: 3rem;
     top: 50%;
-    left: 60%; 
+    left: 60%;
     background-color: var(--ball-color);
-    animation-delay: 6.5s ;
+    animation-delay: 6.5s;
 }
-.balls div.ball9{
+
+.balls div.ball9 {
     width: 1.5rem;
     height: 1.5rem;
     bottom: -2rem;
-    left: 70%; 
+    left: 70%;
     background-color: var(--ball-color);
-    animation-delay: 2s ;
+    animation-delay: 2s;
 }
-.balls div.ball10{
+
+.balls div.ball10 {
     width: 3.3rem;
     height: 3rem;
     bottom: -2rem;
-    left: 80%; 
+    left: 80%;
     background-color: var(--ball-color);
-    animation-delay: 7s ;
+    animation-delay: 7s;
 }
 
 /* Animations */
 @keyframes bounce {
-    0%{
+    0% {
         transform: translateY(-1.2rem);
     }
 
-    50%{
+    50% {
         transform: translateY(0);
     }
 
-    100%{
+    100% {
         transform: translateY(-1.2rem);
     }
 }
 
 /* balls animation */
 @keyframes mover {
-    0%{
+    0% {
         transform: translateY(0);
         opacity: 0;
     }
-    50%{
-       opacity: 1;
+
+    50% {
+        opacity: 1;
     }
+
     75% {
-       opacity: 1;
+        opacity: 1;
     }
-    100%{
+
+    100% {
         transform: translateY(-80vh);
         opacity: 0;
     }
+}
+
+/* Scroll partners animation */
+
+@keyframes my-animation {
+    from {
+        transform: translateX(100%);
     }
 
-    /* Scroll partners animation */
+    to {
+        transform: translateX(-100%);
+    }
+}
 
-    @keyframes my-animation {
-        from{
-            transform: translateX(100%);
-        }
-        to{
-            transform: translateX(-100%);
-        }
+/* Hero section Animation */
+@keyframes slide {
+    from {
+        transform: translateX(-150px);
+        opacity: 0;
     }
 
-    /* Hero section Animation */
-    @keyframes slide {
-        from{
-            transform: translateX(-150px);
-            opacity: 0;
-        }
-        to{
-            transform: translateX(0);
-            opacity: 1; 
-        }
+    to {
+        transform: translateX(0);
+        opacity: 1;
     }
+}

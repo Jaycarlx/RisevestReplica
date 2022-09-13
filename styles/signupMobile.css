@@ -1,15 +1,17 @@
 @media screen and (max-width: 900px) {
-    body{
+    body {
         font-size: 100%;
     }
-    .wrapper{
+
+    .wrapper {
         display: flex;
         flex-direction: column;
     }
-    .wrapper .container{
+
+    .wrapper .container {
         flex-basis: 5rem;
         height: 5rem;
-        background: var(--primary-color) url("../img/dots-mobile.974f5426.jpeg") no-repeat ;
+        background: var(--primary-color) url("../img/dots-mobile.974f5426.jpeg") no-repeat;
         background-size: cover;
         position: static;
         width: auto;
@@ -17,9 +19,11 @@
         padding: 0;
         gap: 0;
     }
-    .container h2{
+
+    .container h2 {
         display: none;
     }
+
     #logo h1 {
         font-size: 2rem;
         font-weight: 300;
@@ -29,7 +33,8 @@
         margin-top: 2rem;
         margin-left: 2rem;
     }
-    #logo h1 p{
+
+    #logo h1 p {
         width: .5rem;
         height: .5rem;
         border-radius: 50%;
@@ -39,33 +44,38 @@
         right: 18.7rem;
     }
 
-    #eye{
+    #eye {
         right: 20%;
     }
 
 
 
-    .wrapper div.signup{
+    .wrapper div.signup {
         flex-basis: 2rem;
         width: 90%;
         margin-left: auto;
     }
-    .signup-heading p{
+
+    .signup-heading p {
         font-size: 1rem;
         width: 100%;
         color: #4b4b4bea;
-    } 
-    .signup-form form input, .signup-form button {
+    }
+
+    .signup-form form input,
+    .signup-form button {
         width: 20.1rem;
     }
 
-    .signup-form button{
+    .signup-form button {
         margin-bottom: 1.7rem;
     }
-    .footer p{
+
+    .footer p {
         width: 95%;
     }
-    .footer::before{
+
+    .footer::before {
         width: 95%
     }
 }
